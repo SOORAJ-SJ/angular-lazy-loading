@@ -1,1 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+    --primary: #FF7070;
+    --background: #eff3fa;
+}
+body {
+    background-color: var(--background) !important;
+    font-size: 20px;
+    padding: .85em;
+}
+.rounded-edge {
+    border-radius: .85em;
+}
